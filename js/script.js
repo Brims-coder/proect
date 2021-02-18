@@ -35,19 +35,25 @@
 // const nam = 50;
 // (nam === 50) ? console.log('OK') : console.log('Error');
 
-const num = 50;
-switch (num) {
-case 49 : 
-console.log('no');
-break;
-case 100 :
-    console.log('no');
-    break;
-    case 50 :
-        console.log('yes');
-        break;
-        default:
-            console.log('no');
-            break;
+// const num = 50;
+// switch (num) {
+// case 49 : 
+// console.log('no');
+// break;
+// case 100 :
+//     console.log('no');
+//     break;
+//     case 50 :
+//         console.log('yes');
+//         break;
+//         default:
+//             console.log('no');
+//             break;
 
+// }
+
+let num = 50;
+while (num < 55) {
+    console.log(num);
+    num++;
 }
