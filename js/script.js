@@ -32,5 +32,22 @@
 //     console.log('Ok');
 // }
 
-const nam = 50;
-(nam === 50) ? console.log('OK') : console.log('Error');
+// const nam = 50;
+// (nam === 50) ? console.log('OK') : console.log('Error');
+
+const num = 50;
+switch (num) {
+case 49 : 
+console.log('вйцщ');
+break;
+case 100 :
+    console.log('ре');
+    break;
+    case 50 :
+        console.log('пк');
+        break;
+        default:
+            console.log('авы');
+            break;
+
+}
