@@ -38,16 +38,16 @@
 const num = 50;
 switch (num) {
 case 49 : 
-console.log('вйцщ');
+console.log('no');
 break;
 case 100 :
-    console.log('ре');
+    console.log('no');
     break;
     case 50 :
-        console.log('пк');
+        console.log('yes');
         break;
         default:
-            console.log('авы');
+            console.log('no');
             break;
 
 }
