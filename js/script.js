@@ -23,11 +23,14 @@
 //     console.log('Error');
 // }
 
-const num = 50;
-if (num<49) {
-    console.log('Error');
-} else if (num>100) {
-    console.log('много!');
-} else {
-    console.log('Ok');
-}
+// const num = 50;
+// if (num<49) {
+//     console.log('Error');
+// } else if (num>100) {
+//     console.log('много!');
+// } else {
+//     console.log('Ok');
+// }
+
+const nam = 50;
+(nam === 50) ? console.log('OK') : console.log('Error');
