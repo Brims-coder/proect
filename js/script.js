@@ -82,6 +82,12 @@ privat: false
             personalMovieDB.movies[a] = b;
             console.log('done');
           } 
+else {
+    console.log('error');
+    i--;
+    
+}
+
  }
 
  console.log(personalMovieDB);
