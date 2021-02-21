@@ -72,15 +72,7 @@ actors: {},
 genres: [],
 privat: false
 };
-const a = prompt('Один из последних просмотренных вильмов?', ''),
-      b = prompt('На сколько оцените его?', ''),
-      c = prompt('Один из последних просмотренных вильмов?', ''),
-      d = prompt('На сколько оцените его?', '');
-
- personalMovieDB.movies[a] = b;  
- personalMovieDB.movies[c] = d;  
  
-
  for (let i = 1; i < 2; i++) {
     const a = prompt('Один из последних просмотренных вильмов?', ''),
           b = prompt('На сколько оцените его?', '');
