@@ -133,3 +133,18 @@ function calc(a,b) {
 console.log(calc(16,4));
 console.log(calc(15,4));
 console.log(calc(14,4));
+
+function ret() {
+  let num = 50;
+
+  //
+
+  return num;
+}
+const anotherNum = ret();
+console.log(anotherNum);
+
+let logger = function () {
+console.log("Hello");
+};
+logger();
