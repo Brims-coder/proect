@@ -119,7 +119,7 @@
 // }
 //  console.log(personalMovieDB);
 "use strict";
-function showFirstMessage () {
-  console.log('Hello world!');
+function showFirstMessage (text) {
+  console.log(text);
 }
-showFirstMessage();
+showFirstMessage("Hello world!");
