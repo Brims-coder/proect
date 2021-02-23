@@ -126,3 +126,10 @@ function showFirstMessage (text) {
 }
 showFirstMessage("Hello world!");
 console.log(num);
+
+function calc(a,b) {
+  return (a+b);
+}
+console.log(calc(16,4));
+console.log(calc(15,4));
+console.log(calc(14,4));
