@@ -216,4 +216,11 @@ function detectPersonalLevel () {
         console.log("Произошла ошибка");
       }
 }
- console.log(personalMovieDB);
+detectPersonalLevel();
+
+function showMyDB (hidden) {
+if (!hidden) {
+    console.log(personalMovieDB);
+}
+}
+ showMyDB();
