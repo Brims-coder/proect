@@ -223,4 +223,4 @@ if (!hidden) {
     console.log(personalMovieDB);
 }
 }
- showMyDB();
+ showMyDB(personalMovieDB.privat);
