@@ -118,33 +118,53 @@
 //   console.log("Произошла ошибка");
 // }
 //  console.log(personalMovieDB);
-"use strict";
-let num = 20;
-function showFirstMessage (text) {
-  console.log(text);
-  console.log(num);
-}
-showFirstMessage("Hello world!");
-console.log(num);
+// "use strict";
+// let num = 20;
+// function showFirstMessage (text) {
+//   console.log(text);
+//   console.log(num);
+// }
+// showFirstMessage("Hello world!");
+// console.log(num);
 
-function calc(a,b) {
-  return (a+b);
-}
-console.log(calc(16,4));
-console.log(calc(15,4));
-console.log(calc(14,4));
+// function calc(a,b) {
+//   return (a+b);
+// }
+// console.log(calc(16,4));
+// console.log(calc(15,4));
+// console.log(calc(14,4));
 
-function ret() {
-  let num = 50;
+// function ret() {
+//   let num = 50;
 
-  //
+//   //
 
-  return num;
-}
-const anotherNum = ret();
-console.log(anotherNum);
+//   return num;
+// }
+// const anotherNum = ret();
+// console.log(anotherNum);
 
-let logger = function () {
-console.log("Hello");
-};
-logger();
+
+// let logger = function () {
+// console.log("Hello");
+// };
+// logger();
+
+// const calc = (a, b) => a+b;
+
+
+
+/* Задание на урок:
+
+1) Первую часть задания повторить по уроку
+
+2) Создать функцию showMyDB, которая будет проверять свойство privat. Если стоит в позиции
+false - выводит в консоль главный объект программы
+
+3) Создать функцию writeYourGenres в которой пользователь будет 3 раза отвечать на вопрос 
+"Ваш любимый жанр под номером ${номер по порядку}". Каждый ответ записывается в массив данных
+genres
+
+P.S. Функции вызывать не обязательно*/
+
+'use strict';
